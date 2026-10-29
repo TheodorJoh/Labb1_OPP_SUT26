@@ -26,7 +26,7 @@ namespace Labb1_OPP_SUT26.Models
 
         public float GetVolume()
         {
-            return 4 / 3 * _pi * Radius * Radius * Radius;
+            return 4f / 3f * _pi * Radius * Radius * Radius;
         }
 
     }
